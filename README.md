@@ -12,7 +12,7 @@
 
 ## Run
 
-1. Initiate GENI nodes. Create resources on your own or use the `passwordcracker_rspec.xml` file above. Before you start doing anying, please check all IP addresses in `manager.py` and `worker.py` are correct. You may use `ifconfig` on each node to check.
+1. Initiate GENI nodes. Create resources on your own or use the `passwordcracker_rspec.xml` file above. Before you start doing anying, please check **all IP addresses** in `manager.py` and `worker.py` are correct. You may use `ifconfig` on each node to check.
 2. Use SSH to log in to each node.
 3. On management service node, run
 ```bash
