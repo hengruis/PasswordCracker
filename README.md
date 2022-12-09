@@ -7,6 +7,7 @@
 ## Requirement
 
 > Python >= 3.6
+>
 > Flask (on local machine)
 
 ## Run
