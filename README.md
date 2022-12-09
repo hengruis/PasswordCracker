@@ -2,9 +2,7 @@
 
 ## Instruction
 
-`manager.py` and `worker.py` are designed for management service and worker nodes. The `server` directory contains files that is needed for local web-interface. To start this project, please upload `manager.py` to management service node and `worker.py` to each worker node. A demo video is here.
-
-<video src="https://drive.google.com/file/d/19WShcWp8U4CRlDlgttdfOm7hAjwtwFQx/preview" width="640" height="480" allow="autoplay"></video>
+`manager.py` and `worker.py` are designed for management service and worker nodes. The `server` directory contains files that is needed for local web-interface. To start this project, please upload `manager.py` to management service node and `worker.py` to each worker node. A demo video is [here]( https://drive.google.com/file/d/19WShcWp8U4CRlDlgttdfOm7hAjwtwFQx/view?usp=sharing).
 
 ## Requirement
 
