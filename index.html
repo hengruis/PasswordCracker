@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <title>Password Cracker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Password Cracker</h1>
+            <form action="http://localhost:5000/index" method="post">
+                <p>Input your password (5 English letters):</p>
+                <p><input type="text" name="password" class="form-control" required maxlength="5"
+                          minlength="5" style="-ms-ime-mode: disabled" /></p>
+                <p>Select number of workers (1~5):</p>
+                <p><input type="number" name="num_worker" class="form-control" required min="1" max="5" /></p>
+                <p><input type="submit" value="submit" /></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
